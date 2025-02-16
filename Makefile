@@ -1,14 +1,15 @@
-site_install:
-	pip install -r requirements.txt
-
-site_link:
-	ln -sf $(CURDIR)/README.md $(CURDIR)/docs/index.md
-
-site_preview: site_link
-	mkdocs serve
-
-site_build: site_link
-	mkdocs build
-
-site_deploy: site_link
-	mkdocs gh-deploy --clean
+<!DOCTYPE html>
+<html>
+	<head>
+		<tittle style="color:red"><b>Tricks@86</b></tittle>
+	</head>
+	<body style="background-color:lightblue">
+		<marquee><a href="http://programminghub.io"><h1 style="font-size:500%"><b>Tricks official</b></h1></a></marquee>
+		<p>i don't give a damn what you think about me.</p>
+		<ol> <li>Are you ok</li> <li>Are you sure</li> <li>you're going to be ok</li> <li>you feel me</li> </ol>
+<form style="font-size:300%">
+	  	Points: <input type="range" name="points" min="0" max="100"> <br><br>
+		<input type="submit">
+	</form>
+	</body>
+</html>
